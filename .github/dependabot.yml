@@ -1,0 +1,11 @@
+# Dependabot version updates configuration.
+# Structure modeled on storybookjs/storybook (version 2 schema, npm
+# ecosystem, weekly schedule) with a root "/" directory as used by
+# ToolJet/ToolJet for npm projects at the repository root.
+version: 2
+
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
